@@ -49,5 +49,9 @@ export function daysInBudget(budget, ratePerHour) {
  * @returns {number} the rounded up discounted rate
  */
 export function priceWithMonthlyDiscount(ratePerHour, numDays, discount) {
-  return Math.ceil(((Math.floor(numDays / 22)) * dayRate(ratePerHour) * 22 * (1-discount)) + (numDays % 22 * dayRate(ratePerHour)));
+  const DAYS_PER_MONTH = 22;
+  let fullMonths = Math.floor(numDays / DAYS_PER_MONTH);
+  let remainingdays = numDays % DAYS_PER_MONTH;
+  
+  return Math.ceil((fullMonths * dayRate(ratePerHour) * DAYS_PER_MONTH * (1-discount)) + (remainingdays * dayRate(ratePerHour)));
 }

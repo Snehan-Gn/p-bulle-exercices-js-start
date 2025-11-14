@@ -49,7 +49,7 @@ export function frontDoorPassword(word) {
  * @returns {string}
  */
 export function backDoorResponse(line) {
-  return line.trim().split('').reverse()[0];
+  return line.trim().slice(-1);
 }
 
 /**
