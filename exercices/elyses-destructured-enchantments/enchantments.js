@@ -9,8 +9,8 @@
  * @returns {Card} the first card in the deck
  */
 export function getFirstCard(deck) {
-  let a, rest;
-  [a, ...rest] = deck;
+  const [a, ...rest] = deck;
+  
 
   return a
 }
@@ -23,8 +23,8 @@ export function getFirstCard(deck) {
  * @returns {Card} the second card in the deck
  */
 export function getSecondCard(deck) {
-  let a, b, rest;
-  [a, b, ...rest] = deck;
+  const [a, b, ...rest] = deck;
+  
 
   return b
 }
@@ -37,11 +37,9 @@ export function getSecondCard(deck) {
  * @returns {[Card, Card]} new deck with the 2 cards swapped
  */
 export function swapTwoCards(deck) {
-  let a,b;
-  [a, b] = deck;
-  [a, b] = [b, a];
+  const [a, b] = deck;
 
-  return [a,b]
+  return [b,a]
 }
 
 /**
@@ -52,11 +50,9 @@ export function swapTwoCards(deck) {
  * @returns {[Card, Card, Card]} new deck with the 3 cards shifted by one position
  */
 export function shiftThreeCardsAround(deck) {
-  let a,b,c;
-  [a,b,c] = deck;
-  [a,b,c] = [b,c,a];
+  const [a,b,c] = deck;
 
-  return [a,b,c]
+  return [b,c,a]
 
 }
 
