@@ -42,13 +42,6 @@ export function determineOddEvenCards(stack, type) {
     }
   }
 
-  if (type == true)
-  {
-    return oddCount
-  }
-  else if (type == false)
-  {
-    return evenCount
-  }
+  return type ? oddCount : evenCount;
     
 }
