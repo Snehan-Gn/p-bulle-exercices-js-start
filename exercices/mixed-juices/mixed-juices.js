@@ -39,23 +39,23 @@ export function limesToCut(wedgesNeeded, limes) {
   let i = 0;
   let limesNeeded = 0;
 
-  while ((i < limes.length) || (wedgesNeeded > 0)) {
+  while (i < limes.length && wedgesNeeded > 0) {
     switch (limes[i]) {
-      case 'small' :
-        wedgesNeeded - 6;
+      case 'small':
+        wedgesNeeded -= 6;
         break;
-      case 'medium' :
-        wedgesNeeded - 8;
+      case 'medium':
+        wedgesNeeded -= 8;
         break;
-      case 'large' :
-        wedgesNeeded - 10;
+      case 'large':
+        wedgesNeeded -= 10;
         break;
     }
-    i++
+    i++;
     limesNeeded++;
-    
   }
-  return limesNeeded
+
+  return limesNeeded;
 }
 
 
@@ -67,11 +67,10 @@ export function limesToCut(wedgesNeeded, limes) {
  * @returns {string[]} remaining orders after the time is up
  */
 export function remainingOrders(timeLeft, orders) {
-  do {            
-      timeLeft - timeToMixJuice(orders[0])
-      orders.shift();
+  while (orders.length > 0 && timeLeft > 0) {
+    timeLeft -= timeToMixJuice(orders[0]);
+    orders.shift();
+  }
 
-  } while (orders.length > 0 && timeLeft > 0);
-
-  return orders
+  return orders;
 }
