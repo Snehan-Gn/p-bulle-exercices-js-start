@@ -4,5 +4,24 @@
 //
 
 export const hey = (message) => {
-  throw new Error('Remove this line and implement the function');
+  if (message.trim() === "") {
+    return "Fine. Be that way!";
+  }
+ 
+  const hasLetters = /[a-zA-Z]/.test(message.trim());
+  const isYelling = hasLetters && message.trim() === message.trim().toUpperCase();
+ 
+  if (isYelling && message.trim().endsWith("?")) {
+    return "Calm down, I know what I'm doing!";
+  }
+ 
+  if (isYelling) {
+    return "Whoa, chill out!";
+  }
+ 
+  if (message.trim().endsWith("?")) {
+    return "Sure.";
+  }
+ 
+  return "Whatever.";
 };

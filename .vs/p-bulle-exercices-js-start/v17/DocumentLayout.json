@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ETML\\p-bulle-exercices-js-start\\",
+  "WorkspaceRootPath": "C:\\Users\\pr46eml\\Documents\\p-bulle-exercices-js-start\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ETML\\p-bulle-exercices-js-start\\exercices\\amusement-park\\amusement-park.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pr46eml\\Documents\\p-bulle-exercices-js-start\\exercices\\amusement-park\\amusement-park.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:exercices\\amusement-park\\amusement-park.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ETML\\p-bulle-exercices-js-start\\exercices\\elyses-analytic-enchantments\\.docs\\instructions.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pr46eml\\Documents\\p-bulle-exercices-js-start\\exercices\\elyses-analytic-enchantments\\.docs\\instructions.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:exercices\\elyses-analytic-enchantments\\.docs\\instructions.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "amusement-park.js",
-              "DocumentMoniker": "D:\\ETML\\p-bulle-exercices-js-start\\exercices\\amusement-park\\amusement-park.js",
+              "DocumentMoniker": "C:\\Users\\pr46eml\\Documents\\p-bulle-exercices-js-start\\exercices\\amusement-park\\amusement-park.js",
               "RelativeDocumentMoniker": "exercices\\amusement-park\\amusement-park.js",
-              "ToolTip": "D:\\ETML\\p-bulle-exercices-js-start\\exercices\\amusement-park\\amusement-park.js",
+              "ToolTip": "C:\\Users\\pr46eml\\Documents\\p-bulle-exercices-js-start\\exercices\\amusement-park\\amusement-park.js",
               "RelativeToolTip": "exercices\\amusement-park\\amusement-park.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -37,14 +37,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "instructions.md",
-              "DocumentMoniker": "D:\\ETML\\p-bulle-exercices-js-start\\exercices\\elyses-analytic-enchantments\\.docs\\instructions.md",
+              "DocumentMoniker": "C:\\Users\\pr46eml\\Documents\\p-bulle-exercices-js-start\\exercices\\elyses-analytic-enchantments\\.docs\\instructions.md",
               "RelativeDocumentMoniker": "exercices\\elyses-analytic-enchantments\\.docs\\instructions.md",
-              "ToolTip": "D:\\ETML\\p-bulle-exercices-js-start\\exercices\\elyses-analytic-enchantments\\.docs\\instructions.md",
+              "ToolTip": "C:\\Users\\pr46eml\\Documents\\p-bulle-exercices-js-start\\exercices\\elyses-analytic-enchantments\\.docs\\instructions.md",
               "RelativeToolTip": "exercices\\elyses-analytic-enchantments\\.docs\\instructions.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-01-09T01:05:04.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T01:05:04.902Z"
             },
             {
               "$type": "Bookmark",
