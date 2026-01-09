@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\exercices"
+    "\\exercices",
+    "\\exercices\\amusement-park",
+    "\\exercices\\elyses-analytic-enchantments",
+    "\\exercices\\elyses-analytic-enchantments\\.docs"
   ],
-  "SelectedNode": "\\exercices",
+  "SelectedNode": "\\exercices\\amusement-park\\amusement-park.js",
   "PreviewInSolutionExplorer": false
 }
