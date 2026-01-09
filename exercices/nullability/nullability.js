@@ -14,5 +14,20 @@
  * @returns {string} the text to print on the badge
  */
 export function printBadge(id, name, department) {
-  throw new Error('Remove this line and implement the function');
+  let badgeText = ''
+
+  if (id !== null) {
+    badgeText += `[${id}] `
+  }
+  if (name){
+    badgeText += name
+  }
+  if (department !== null) {
+    badgeText += ` - ${department.toUpperCase()}`
+  }
+  else {
+    badgeText += ` - OWNER`
+  }
+
+  return badgeText
 }
